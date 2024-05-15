@@ -12,6 +12,7 @@ module ForwardingUnit(EX_MEM_RegWrite, EX_MEM_rd, MEM_WB_RegWrite, MEM_WB_rd, ID
     // 1 --> forwarding from Memory
     // 2 --> forwarding from WriteBack
 
+
     initial begin
             ALU_input_rs <= 0;
             ALU_input_rt <= 0;
